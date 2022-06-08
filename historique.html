@@ -1,0 +1,64 @@
+{% extends "_dash-base.html" %}
+{% load static %}
+
+
+{% block sidebar %}
+{% include "realypoint/_sidebar.html" %}
+{% endblock sidebar %}
+
+{% block pagetitle %}
+<div class="pagetitle">
+    <h1>Historique de Colis Point Relaiss</h1>
+  </div>
+{% endblock pagetitle %}
+
+
+{% block content %}
+<div class="row">
+  <div class="col-12">
+      <div class="card recent-sales">
+          <div class="card-body">
+              <h5 class="card-title">Historique de colis</h5>
+              <table class="table table-borderless">
+                  <thead>
+                      <tr>
+                          <th scope="col">Date</th>
+                          <th scope="col">Adresse</th>
+                          <th scope="col">Expéditeur</th>
+                          <th scope="col">Type de livraison</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>12-01-22</td>
+                          <td><a href="#" class="text-primary">Keur Massar</a></td>
+                          <td>Amdou Mbow</td>
+                          <td>Express</td>
+                      </tr>
+                      <tr>
+                          <td>12-01-22</td>
+                          <td><a href="#" class="text-primary">Keur Massar</a></td>
+                          <td>Amdou Mbow</td>
+                          <td>Express</td>
+                      </tr>
+                      <tr>
+                          <td>12-01-22</td>
+                          <td><a href="#" class="text-primary">Keur Massar</a></td>
+                          <td>Amdou Mbow</td>
+                          <td>Express</td>
+                      </tr>
+                      <tr>
+                          <td>12-01-22</td>
+                          <td><a href="#" class="text-primary">Keur Massar</a></td>
+                          <td>Amdou Mbow</td>
+                          <td>Express</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </div>
+</div>
+{% endblock content %}
+    
+    
